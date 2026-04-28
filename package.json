@@ -1,6 +1,6 @@
 {
     "name": "com.ovfl.inspector",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "OVFL Inspector",
     "description": "Unity 인스펙터 커스터마이징 패키지. ShowWhen/HideWhen 속성으로 필드를 조건부 표시합니다.",
     "unity": "6000.1",
