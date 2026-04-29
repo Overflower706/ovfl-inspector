@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ovfl.Inspector.Editor
 {
-    [CustomPropertyDrawer(typeof(HideWhenAttribute))]
+    [CustomPropertyDrawer(typeof(HideWhenAttribute), true)]
     public class HideWhenPropertyDrawer : PropertyDrawer
     {
         // 조건을 확인하여 '숨길지 말지'를 결정하는 메서드

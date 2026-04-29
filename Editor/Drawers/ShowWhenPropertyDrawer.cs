@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace ovfl.Inspector.Editor
 {
-    [CustomPropertyDrawer(typeof(ShowWhenAttribute))] // 또는 ShowIfAttribute
+    [CustomPropertyDrawer(typeof(ShowWhenAttribute), true)]
     public class ShowWhenPropertyDrawer : PropertyDrawer
     {
         private bool ShouldShow(SerializedProperty property)
