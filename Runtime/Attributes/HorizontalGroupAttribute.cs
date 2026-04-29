@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace ovfl.Inspector
 {
-    /// <summary>필드를 수평으로 배치합니다. (완전한 수평 레이아웃은 미지원 — 스텁)</summary>
-    [AttributeUsage(AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
+    /// <summary>필드 또는 메서드(버튼)를 수평으로 배치합니다.</summary>
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public class HorizontalGroupAttribute : PropertyAttribute
     {
         public string GroupName { get; }

@@ -5,7 +5,7 @@ namespace ovfl.Inspector
 {
     public enum InfoBoxType { Info, Warning, Error }
 
-    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Method | AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true, Inherited = true)]
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true, Inherited = true)]
     public class InfoBoxAttribute : PropertyAttribute
     {
         public string Message { get; }
