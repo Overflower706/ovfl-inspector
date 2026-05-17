@@ -59,6 +59,8 @@ namespace ovfl.Inspector.Editor
 
         public override void OnInspectorGUI()
         {
+            if (serializedObject.targetObject == null) return;
+
             EnsureStyles();
             serializedObject.Update();
 
